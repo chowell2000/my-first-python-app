@@ -14,14 +14,14 @@ if __name__ == "__main__":
 
     print("-------------------")
     print("WELCOME TO MY ROCK-PAPER-SCISSORS GAME!!")
-    print(f"PLAYER: '{USER_NAME}'")
+    print(f" PLAYER: '{USER_NAME}'")
 
     print("-------------------")
     print("PLEASE SELECT ONE OF THE FOLLOWING OPTIONS:", OPTIONS)
 
     print("-------------------")
     user_choice = "rock" # TODO: accept user input
-    print(f"YOU CHOSE: '{user_choice}'")
+    print(f'YOU CHOSE: "{user_choice}"')
 
     computer_choice = random.choice(OPTIONS)
     print(f"COMPUTER CHOSE: '{computer_choice}'")
